@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Website helper!</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/themes/nano.min.css"/>
+  <link rel="stylesheet" href="./animate.css">
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  <!-- navbar -->
+  <nav>
+    <li><a href="#"><i class="material-icons">palette</i></a></li>
+    <!-- <li><a href="#"><i class="material-icons">filter_frames</i></a></li> -->
+    <li><a href="#"><i class="material-icons">refresh</i></a></li>
+  </nav>
+<!-- /navbar -->
+
+<!-- color palette -->
+<div class="palette-container">
+  <!-- color 1 -->
+  <div class="palette-wrapper">
+    <span class="colorText"></span>
+    <div class="locker-container">
+      <i class="material-icons initial_open">lock_open</i>
+      <i class="material-icons initial_close">lock</i>
+    </div>
+  </div>
+  <!-- color 2 -->
+  <div class="palette-wrapper">
+    <span class="colorText"></span>
+    <div class="locker-container">
+      <i class="material-icons initial_open">lock_open</i>
+      <i class="material-icons initial_close">lock</i>
+    </div>
+  </div>
+  <!-- color 3 -->
+  <div class="palette-wrapper">
+    <span class="colorText"></span>
+    <div class="locker-container">
+      <i class="material-icons initial_open">lock_open</i>
+      <i class="material-icons initial_close">lock</i>
+    </div>
+  </div>
+  <!-- color 4 -->
+  <div class="palette-wrapper">
+    <span class="colorText"></span>
+    <div class="locker-container">
+      <i class="material-icons initial_open">lock_open</i>
+      <i class="material-icons initial_close">lock</i>
+    </div>
+  </div>
+  <!-- color 5 -->
+  <div class="palette-wrapper">
+    <span class="colorText"></span>
+    <div class="locker-container">
+      <i class="material-icons initial_open">lock_open</i>
+      <i class="material-icons initial_close">lock</i>
+    </div>
+  </div>
+</div>
+<!-- /color palette -->
+
+<!-- floating bubble! -->
+  <div class="floating-bubble-wrapper">
+    <!-- modal -->
+    <div class="modal">
+      <div class="colors_list_palette">
+        <span class="color_list_item"></span>
+        <span class="color_list_item"></span>
+        <span class="color_list_item"></span>
+        <span class="color_list_item"></span>
+        <span class="color_list_item"></span>
+      </div>
+      <div class="color_count_message">
+        <span id="message"></span>
+        <button class="generateSchema">Generate</button>
+      </div>
+    </div>
+    <!-- /modal -->
+
+    <div class="floating">
+      <div class="floating-bubble">
+        <i class="material-icons">open_with</i>
+      </div>
+      <div class="floating-bubble hide-floating-bubble">
+          <i class="material-icons color_palette">open_with</i>
+      </div>
+    </div>
+
+  </div>
+<!-- /floating bubble! -->
+
+<script src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.es5.min.js"></script>
+<script src="./colors.js" charset="utf-8"></script>
+<script src="./index.js" async charset="utf-8"></script>
+</body>
+</html>
